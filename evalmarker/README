@@ -1,0 +1,1 @@
+this system is set up so that the data and storage folders have bad permissions (777).  Need to figure out a configuration with groups and stuff where these permissions aren't required.  All files and subfolders in those directories will also have 777 permissions.  Ideally, they should be 755.

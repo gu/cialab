@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<line color='red'>
+  <coord X='146' Y='18' />
+  <coord X='139' Y='21' />
+  <coord X='136' Y='23' />
+  <coord X='127' Y='28' />
+  <coord X='120' Y='35' />
+  <coord X='150' Y='132' />
+  <coord X='150' Y='133' />
+  <coord X='140' Y='143' />
+  <coord X='105' Y='160' />
+  <coord X='100' Y='161' />
+  <coord X='97' Y='163' />
+</line>
+
+<line color='red'>
+  <coord X='192' Y='154' />
+  <coord X='194' Y='154' />
+  <coord X='201' Y='154' />
+  <coord X='205' Y='154' />
+  <coord X='218' Y='154' />
+  <coord X='230' Y='154' />
+  <coord X='244' Y='155' />
+  <coord X='253' Y='158' />
+  <coord X='267' Y='167' />
+  <coord X='273' Y='174' />
+  <coord X='278' Y='180' />
+  <coord X='292' Y='194' />
+  <coord X='294' Y='196' />
+  <coord X='299' Y='197' />
+  <coord X='305' Y='197' />
+  <coord X='311' Y='197' />
+  <coord X='319' Y='191' />
+  <coord X='345' Y='161' />
+  <coord X='357' Y='149' />
+  <coord X='361' Y='142' />
+  <coord X='362' Y='142' />
+  <coord X='363' Y='142' />
+  <coord X='365' Y='142' />
+  <coord X='367' Y='143' />
+  <coord X='379' Y='150' />
+  <coord X='398' Y='167' />
+  <coord X='408' Y='179' />
+  <coord X='417' Y='190' />
+  <coord X='418' Y='191' />
+  <coord X='418' Y='192' />
+  <coord X='419' Y='192' />
+</line>
+
+<line color='red'>
+  <coord X='416' Y='215' />
+  <coord X='415' Y='217' />
+  <coord X='413' Y='223' />
+  <coord X='411' Y='226' />
+  <coord X='407' Y='231' />
+  <coord X='403' Y='235' />
+  <coord X='398' Y='238' />
+  <coord X='391' Y='240' />
+  <coord X='367' Y='242' />
+  <coord X='349' Y='242' />
+  <coord X='318' Y='234' />
+  <coord X='281' Y='218' />
+  <coord X='272' Y='212' />
+  <coord X='269' Y='209' />
+  <coord X='277' Y='196' />
+  <coord X='285' Y='187' />
+  <coord X='297' Y='178' />
+  <coord X='332' Y='156' />
+  <coord X='344' Y='152' />
+  <coord X='349' Y='152' />
+  <coord X='354' Y='152' />
+  <coord X='376' Y='164' />
+  <coord X='415' Y='191' />
+  <coord X='432' Y='199' />
+  <coord X='456' Y='208' />
+  <coord X='465' Y='210' />
+  <coord X='471' Y='208' />
+  <coord X='481' Y='195' />
+  <coord X='497' Y='159' />
+  <coord X='504' Y='134' />
+  <coord X='504' Y='116' />
+  <coord X='499' Y='109' />
+  <coord X='495' Y='105' />
+  <coord X='479' Y='97' />
+  <coord X='443' Y='97' />
+  <coord X='422' Y='101' />
+  <coord X='404' Y='105' />
+  <coord X='376' Y='111' />
+  <coord X='371' Y='112' />
+  <coord X='370' Y='112' />
+  <coord X='368' Y='111' />
+  <coord X='362' Y='103' />
+  <coord X='351' Y='85' />
+  <coord X='351' Y='82' />
+</line>
+
+<line color='blue'>
+  <coord X='409' Y='48' />
+  <coord X='407' Y='52' />
+  <coord X='406' Y='55' />
+  <coord X='405' Y='60' />
+  <coord X='403' Y='65' />
+  <coord X='400' Y='87' />
+  <coord X='408' Y='105' />
+  <coord X='452' Y='125' />
+  <coord X='477' Y='133' />
+  <coord X='515' Y='143' />
+  <coord X='591' Y='150' />
+  <coord X='610' Y='151' />
+  <coord X='630' Y='152' />
+  <coord X='633' Y='153' />
+  <coord X='634' Y='153' />
+  <coord X='637' Y='155' />
+  <coord X='639' Y='158' />
+  <coord X='644' Y='166' />
+  <coord X='652' Y='174' />
+  <coord X='656' Y='180' />
+  <coord X='658' Y='184' />
+  <coord X='659' Y='185' />
+  <coord X='659' Y='186' />
+  <coord X='660' Y='186' />
+  <coord X='660' Y='187' />
+  <coord X='660' Y='188' />
+</line>

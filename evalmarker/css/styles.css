@@ -1,0 +1,58 @@
+.control-panel {
+  color: #fff;
+  padding: 10px;
+  background-color: #455A64;
+  display:flex;
+  text-align: center;
+}
+
+.control-button {
+  display: inline-block;
+  background-color: #546E7A;
+  width:75px;
+  height: 40px;
+  line-height: 40px;
+  margin-right:10px;
+  text-align: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.control-button:hover {
+	background-color: #607D8B;
+}
+
+.control-button:active {
+	background-color: #78909C;
+}
+
+.control-label {
+  background-color: #7887AB;
+  height: 40px;
+  width: 100px;
+  line-height: 40px;
+  margin-right: 10px;
+  text-align: center;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;           /* non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.divider {
+  height: 45px;
+  width: 3px;
+  background-color: #ECEFF1;
+  margin-right: 10px;
+}
+
+#c {
+}

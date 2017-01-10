@@ -1,0 +1,255 @@
+html {overflow-y: scroll;}
+#TotalPage
+{
+height: 100%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+text-align: center;
+font-family: arial;
+}
+#body
+{
+height: 100%;
+width: 100%;
+float: left;
+}
+#Content
+{
+height: 100%;
+width:755px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+}
+#Header
+{
+float: left;
+width: 755px;
+height: 98px;
+background: url("../images/homepagelogo.jpg");
+}
+#CenterPage
+{
+display:inline;
+float: left;
+width: 753px;
+border-left: 1px solid #D4D4D4;
+border-right: 1px solid #D4D4D4;
+}
+#CenterPageLeft
+{
+display:inline;
+height: 100%;
+float: left;
+width: 153px;
+}
+#CenterPageRight
+{
+display:inline;
+height: 100%;
+float: right;
+width: 600px;
+}
+#Footer
+{
+clear:both;
+top:0px;
+display: inline;
+float: left;
+width: 755px;
+height: 47px;
+background: url("../images/homepagefooter.jpg");
+}
+#NavBar
+{
+width: 745px;
+height: 24px;
+padding-left: 5px;
+padding-right: 5px;
+background-color: rgb(249,247,238);
+border-bottom: 1px solid #D4D4D4;
+float: right;
+padding-top: 5px;
+display: inline
+}
+#NavBarItemCurrent
+{
+float: left;
+text-decoration: none;
+text-align:center;
+height: 24px;
+padding-left: 3px;
+padding-right: 3px;
+color: black;
+background-color: white;
+margin-left: 2px;
+margin-right: 2px;
+border-top: 1px solid #D4D4D4;
+border-left: 1px solid #D4D4D4;
+border-right: 1px solid #D4D4D4;
+font-size: 16px;
+font-family: "Arial";
+vertical-align: bottom;
+display:inline-block;
+zoom: 1;
+*display: inline;
+}
+#NavBarItem
+{
+float: left;
+text-decoration: none;
+text-align: center;
+height: 23px;
+padding-left: 3px;
+padding-right: 3px;
+color: rgb(75,75,75);
+background-color: rgb(240,240,240);
+margin-left: 2px;
+margin-right: 2px;
+border: 1px solid #D4D4D4;
+font-size: 16px;
+font-family: "Arial";
+display:inline-block;
+vertical-align: bottom;
+zoom: 1;
+*display: inline;
+}
+#NavBarItem:hover
+{
+text-decoration: none;
+color: rgb(240,240,240);
+background-color: rgb(75,75,75);
+cursor: pointer;
+}
+#NavBarTextItem
+{
+float: right;
+text-decoration: none;
+text-align: center;
+height: 25px;
+padding-left: 3px;
+padding-right: 3px;
+margin-left: 2px;
+margin-right: 2px;
+font-size: 16px;
+font-family: "Arial";
+display:inline-block;
+vertical-align: bottom;
+zoom: 1;
+*display: inline;
+}
+a.tab
+{
+text-decoration: none;
+}
+#infobar
+{
+font-size: 0px;
+height: 1px;
+width: 100%;
+margin-top: 2px;
+margin-bottom: 2px;
+float: left;
+background-color: rgb(160,160,160);
+}
+#infocontainer
+{
+margin-top: 10px;
+margin-bottom: 20px;
+margin-left: 5px;
+margin-right: 5px;
+float: left;
+width: 590px;
+height: 100%;
+text-align: left;
+}
+a.leftlinks
+{
+text-decoration: none;
+color: black;
+cursor: pointer;
+}
+a.leftlinks:hover
+{
+text-decoration: none;
+color: white;
+}
+#FloatBox
+{
+float:left; 
+width:139px; 
+margin-left: 4px; 
+margin-right: 4px; 
+margin-top:20px; 
+border: 1px solid rgb(60,60,60); 
+padding-top: 3px;
+padding-bottom: 3px;
+background-color: #F0F0F0;
+b/ackground-color: rgb(250,250,250);
+zoom: 1;
+}
+#FloatBoxItem
+{
+float: left;
+width: 139px;
+background-color: white;
+border-top: 1px solid rgb(60,60,60);
+border-bottom: 1px solid rgb(60,60,60);
+margin-bottom: 3px;
+margin-top: 3px;
+color: black;
+text-decoration: none;
+}
+#FloatBoxItem:hover
+{
+background-color: rgb(60,60,60);
+color: white;
+}
+#Button
+{
+cursor: pointer;
+text-decoration: none;
+text-align:center;
+min-width: 60px;
+padding-top: 3px;
+padding-bottom: 3px;
+padding-left: 3px;
+padding-right: 3px;
+color: black;
+background-color: rgb(230,230,230);
+margin-left: 5px;
+margin-right: 5px;
+border: 1px solid black;
+font-size: 16px;
+font-family: "Arial";
+vertical-align: bottom;
+display:inline-block;
+zoom: 1;
+*display: inline;
+}
+#FilterContainer
+{
+margin-top: 10px;
+margin-left: 5px;
+margin-right: 5px;
+float: left;
+width: 143px;
+height: 100%;
+text-align: left;
+}
+div#qTip 
+{
+ padding: 3px;
+ border: 1px solid #666;
+ border-right-width: 2px;
+ border-bottom-width: 2px;
+ display: none;
+ background: #999;
+ color: #FFF;
+ font: bold 9px Verdana, Arial, sans-serif;
+ text-align: left;
+ max-width: 180px;
+ position: absolute;
+ z-index: 1000;
+}

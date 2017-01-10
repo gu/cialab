@@ -1,0 +1,87 @@
+html, body 
+{
+	margin:0;
+	padding:0;
+	font-family: Arial;
+}
+/* commented backslash hack v2 \*/ 
+html, body
+{
+	height:100%;
+	width: 100%;
+}
+/* for ie mac*/
+#top-bar
+{
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:50px;
+	width: 100%;
+	z-index:999;
+	overflow:visible;
+}
+#info-bar
+{
+	position:fixed;
+	top:0px;
+	font-size:0px;
+	left:0px;
+	height:1px;
+	width: 100%;
+	z-index:999;
+	overflow:visible;
+}
+#topbar-inner
+{
+	height:50px;
+	background:white;
+}
+#infobar-inner
+{
+	font-size:0px;
+	height: 1px;
+	overflow:visible;
+}
+.inner 
+{
+	padding-top: 50px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	position:relative;
+	width:100%;
+}
+.buttons input:hover 
+{
+    background-color: #F8F8F8;
+    border: 1px solid #C6C6C6;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    color: #333333;
+}
+.buttons input:focus 
+{
+    /*border: 1px solid #4D90FE;*/
+    outline: medium none;
+}
+.buttons input
+{
+    background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px 3px 3px 3px;
+    color: #666666;
+    cursor: pointer;
+    font-weight: bold;
+    height: 27px;
+    line-height: 20px;
+    margin: 10px 1px;
+    min-width: 54px;
+    padding: 0 8px;
+    text-align: center;
+	font-size: 12px;
+	font-family: Verdana;
+	-moz-box-sizing: content-box;
+    -moz-padding-end: 0;
+    -moz-padding-start: 0;
+}
+

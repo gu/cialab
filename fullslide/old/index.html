@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
+ <head>
+  <link rel="stylesheet" type="text/css" media="all" href="css/iip.compressed.css" />
+  <link rel="shortcut icon" href="images/iip-favicon.png" />
+  <title>IIPImage JPEG2000</title>
+
+  <script type="text/javascript" src="javascript/mootools-1.2-core.js"></script>
+  <script type="text/javascript" src="javascript/mootools-1.2-more.js"></script>
+  <script type="text/javascript" src="javascript/iipmooviewer-1.1.js"></script>
+
+  <script type="text/javascript">
+
+   function targetclick(e)
+   { 
+      var tilesrc = e.target.src;
+
+      var xx, yy;
+      if( e.event.layerX ) xx = e.event.layerX; // Only Firefox seems to support this
+      else if( e.event.offsetX ) xx = e.event.offsetX;  // for Opera
+      else xx = e.event.clientX - e.target.offsetLeft;  // For IE
+
+      if( e.event.layerY ) yy = e.event.layerY;
+      else if( e.event.offsetY ) yy = e.event.offsetY;
+      else yy = e.event.clientY - e.target.offsetTop;
+
+      var jtl = tilesrc.substring(tilesrc.search('jtl=')+4);
+
+	  //document.getElementById('infoCenter').innerHTML ='x:' + xx + ' y:' + yy;
+		document.getElementById('infoCenter').innerHTML = jtl + "<br>" + 'x:' + xx + ' y:' + yy;
+	  //alert('x:' + xx + ' y:' + yy);
+	  
+		if(jtl.split(",")[0]=='8')
+		{
+			iip.markers.push({"res":jtl.split(",")[0],"tile":jtl.split(",")[1],"x":xx,"y":yy,"obj":"dot"});
+			iip.requestImages();
+		}
+	}
+	
+	window.addEvent( 'domready', function(){
+    var server = '/fcgi-bin/iipsrv.fcgi';
+
+    // The *full* image path on the server. This path does *not* need to be in the web
+    // server root directory.
+	
+	var images = '/var/www/slide_images/demo.jp2';
+
+    // Copyright or information message
+    var credit = 'IIPImage JPEG2000';
+
+    // Create our viewer object - note: must assign this to the 'iip' variable.
+    // See documentation for more details of options
+    iip = new IIP( "targetframe", {
+		image: images,
+		server: server,
+		credit: credit, 
+		zoom: 1,
+		render: 'random',
+		targetclick: targetclick,
+		showNavButtons: true
+    });
+	
+	});
+	
+  </script>
+
+ </head>
+
+ <body>
+	<div id="infoCenter" style="color:black;background-color:white;position:absolute;left:0;top:0;width:100px;height:50px;z-index:100000;display:none;"></div>
+   <div style="width:99%;height:99%;margin-left:auto;margin-right:auto" id="targetframe"></div>
+ </body>
+
+</html>
